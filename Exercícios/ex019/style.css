@@ -1,0 +1,14 @@
+@charset "UFT-8";
+div{
+    display: flow-root ;
+    background-color: lightblue;
+    border: 1px solid blue;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+div:hover{
+    opacity: 70%;
+    background-color: rgb(2, 2, 107);
+
+}
