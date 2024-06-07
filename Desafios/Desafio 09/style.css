@@ -55,6 +55,11 @@ h1 {
     transition: transform 0.3s ease-in-out;
 }
 .cursos{
+    background-color: #4e4d4db0;
+    margin: 0px -15px 0px -15px;
+    padding: 15px;
+    position: relative;
+    padding-bottom: 56.4%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,6 +67,12 @@ h1 {
     gap: 15px;
 }
 .cursos iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    border-radius: 8px;
     display: grid;
     border-radius: 7.8px;
     box-shadow: 10px 7px 15px #242b38;
