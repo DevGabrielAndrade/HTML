@@ -48,7 +48,8 @@ h1 {
     box-shadow: 10px 7px 15px #242b38;
     box-sizing: border-box;
     border: 3px double black;
-    width: 350px;
+    min-width: 350px;
+    width: 550px;
     height: auto; 
 }
 
@@ -90,5 +91,8 @@ h1 {
 
     .ga img {
         max-width: 350px; 
+    }
+    .cursos{
+        max-width: 350px;
     }
 }
