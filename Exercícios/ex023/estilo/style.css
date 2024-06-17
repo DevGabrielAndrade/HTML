@@ -3,20 +3,50 @@
 body{
     font-family: Arial, sans-serif;
 }
+
 table{
     border-collapse: collapse;
-    width: 300px;
+    width: 470px;
+    position: relative;
 }
 
-tr.linha{
-    background-color: gray;
+td,th{
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center; /* Alinhamento Horizontal*/
+    vertical-align: top;/*Alinhamento Vertical*/
+}
+td.num{
+    text-align: right;
 }
 
-td.dado{
-    background-color: yellow;
+thead,tfoot{
+    background-color: #363636;
+    color: white;
 }
 
-td{
-    padding: 7px;
-    border: 2px solid black;
+thead tr th{
+    position: sticky;
+    top: -1px;
+    background-color: #363636;
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(1, 141, 184);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+caption{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgb(201, 197, 197);
+}
+tfoot{
+    text-align: center;
+    vertical-align: bottom;
 }
