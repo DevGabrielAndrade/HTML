@@ -4,10 +4,15 @@ body{
     font-family: Arial, sans-serif;
 }
 
+h1{
+    text-align: center;
+}
+
 table{
     border-collapse: collapse;
     width: 470px;
     position: relative;
+    margin: 0 auto;
 }
 
 td,th{
@@ -21,7 +26,7 @@ td.num{
 }
 
 thead,tfoot{
-    background-color: #363636;
+    background-color: #858585;
     color: white;
 }
 
@@ -44,9 +49,16 @@ caption{
     font-size: 1.5em;
     font-weight: bold;
     padding: 10px;
-    background-color: rgb(201, 197, 197);
+    border-radius: 5px 5px px 0px ;
+    border: 2px solid black;
 }
 tfoot{
     text-align: center;
     vertical-align: bottom;
+}
+col.nome{
+    background-color: yellow;
+}
+col.idade{
+    background-color: yellow ;
 }
